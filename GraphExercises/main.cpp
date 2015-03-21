@@ -15,7 +15,7 @@
 
 int main(int argc, const char * argv[]) {
     graphDatabaseClass* g = nullptr;
-    depthFirstSearchClass* dfs=nullptr;
+//    depthFirstSearchClass* dfs=nullptr;
     topographialSortClass* topSorter=nullptr;
     
     const char * ifname = "/Users/Bill/Google Drive/Computer and Network/MacProjects/Graph Algorithms/Graph Algorithms/Exercise5-2.txt";
@@ -47,12 +47,12 @@ int main(int argc, const char * argv[]) {
     
     start = g->lookupVertexIndex(startNodeName);
     
-    dfs = new depthFirstSearchClass;
-    
-    dfs->initializeSearch(g);
-    dfs->dfs(start);
-    dfs->dfsReport();
-    
+//    dfs = new depthFirstSearchClass;
+//    
+//    dfs->initializeSearch(g);
+//    dfs->dfs(start);
+//    dfs->dfsReport();
+//    
     topSorter = new topographialSortClass;
     topSorter->initializeSort(g);
     topSorter->topSort(start);
