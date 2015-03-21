@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A90360441ABDE8C700B1E7BD /* breadthFirstSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A90360271ABDE8C700B1E7BD /* breadthFirstSearch.cpp */; };
+		A90360451ABDE8C700B1E7BD /* depthFirstSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A90360291ABDE8C700B1E7BD /* depthFirstSearch.cpp */; };
+		A90360471ABDE8C700B1E7BD /* findCycleClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A90360391ABDE8C700B1E7BD /* findCycleClass.cpp */; };
+		A90360481ABDE8C700B1E7BD /* graphdb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A903603B1ABDE8C700B1E7BD /* graphdb.cpp */; };
+		A90360491ABDE8C700B1E7BD /* topsortClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A903603F1ABDE8C700B1E7BD /* topsortClass.cpp */; };
 		A90C04251ABDE57B00E3B5EB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A90C04241ABDE57B00E3B5EB /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +28,33 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A90360271ABDE8C700B1E7BD /* breadthFirstSearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = breadthFirstSearch.cpp; sourceTree = "<group>"; };
+		A90360281ABDE8C700B1E7BD /* breadthFirstSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = breadthFirstSearch.h; sourceTree = "<group>"; };
+		A90360291ABDE8C700B1E7BD /* depthFirstSearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = depthFirstSearch.cpp; sourceTree = "<group>"; };
+		A903602A1ABDE8C700B1E7BD /* depthFirstSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = depthFirstSearch.h; sourceTree = "<group>"; };
+		A903602B1ABDE8C700B1E7BD /* dfsTest-BackEdge.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "dfsTest-BackEdge.txt"; sourceTree = "<group>"; };
+		A903602C1ABDE8C700B1E7BD /* dfsTest-CrossEdge.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "dfsTest-CrossEdge.txt"; sourceTree = "<group>"; };
+		A903602D1ABDE8C700B1E7BD /* dfsTest-forwardEdge.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "dfsTest-forwardEdge.txt"; sourceTree = "<group>"; };
+		A903602E1ABDE8C700B1E7BD /* dfsTest-tree.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "dfsTest-tree.txt"; sourceTree = "<group>"; };
+		A903602F1ABDE8C700B1E7BD /* dfsTest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dfsTest.txt; sourceTree = "<group>"; };
+		A90360301ABDE8C700B1E7BD /* dfsTestAllCutNode.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dfsTestAllCutNode.txt; sourceTree = "<group>"; };
+		A90360311ABDE8C700B1E7BD /* dfsTestBridgeCutNode.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dfsTestBridgeCutNode.txt; sourceTree = "<group>"; };
+		A90360321ABDE8C700B1E7BD /* dfsTestRootCutNode.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dfsTestRootCutNode.txt; sourceTree = "<group>"; };
+		A90360351ABDE8C700B1E7BD /* Exercise5-1-G1 sortedEdgeTest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Exercise5-1-G1 sortedEdgeTest.txt"; sourceTree = "<group>"; };
+		A90360361ABDE8C700B1E7BD /* Exercise5-1-G1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Exercise5-1-G1.txt"; sourceTree = "<group>"; };
+		A90360371ABDE8C700B1E7BD /* Exercise5-1-G2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Exercise5-1-G2.txt"; sourceTree = "<group>"; };
+		A90360381ABDE8C700B1E7BD /* Exercise5-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Exercise5-2.txt"; sourceTree = "<group>"; };
+		A90360391ABDE8C700B1E7BD /* findCycleClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = findCycleClass.cpp; sourceTree = "<group>"; };
+		A903603A1ABDE8C700B1E7BD /* findCycleClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = findCycleClass.h; sourceTree = "<group>"; };
+		A903603B1ABDE8C700B1E7BD /* graphdb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graphdb.cpp; sourceTree = "<group>"; };
+		A903603C1ABDE8C700B1E7BD /* graphdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphdb.h; sourceTree = "<group>"; };
+		A903603D1ABDE8C700B1E7BD /* inputdata.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = inputdata.txt; sourceTree = "<group>"; };
+		A903603E1ABDE8C700B1E7BD /* output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output.txt; sourceTree = "<group>"; };
+		A903603F1ABDE8C700B1E7BD /* topsortClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = topsortClass.cpp; sourceTree = "<group>"; };
+		A90360401ABDE8C700B1E7BD /* topsortClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = topsortClass.h; sourceTree = "<group>"; };
+		A90360411ABDE8C700B1E7BD /* topSortTestGABCFED.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = topSortTestGABCFED.txt; sourceTree = "<group>"; };
+		A90360421ABDE8C700B1E7BD /* VertexPrintVisitingClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexPrintVisitingClass.h; sourceTree = "<group>"; };
+		A90360431ABDE8C700B1E7BD /* vertexVisitingClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vertexVisitingClass.h; sourceTree = "<group>"; };
 		A90C04211ABDE57B00E3B5EB /* GraphExercises */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GraphExercises; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90C04241ABDE57B00E3B5EB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +90,33 @@
 			isa = PBXGroup;
 			children = (
 				A90C04241ABDE57B00E3B5EB /* main.cpp */,
+				A90360271ABDE8C700B1E7BD /* breadthFirstSearch.cpp */,
+				A90360281ABDE8C700B1E7BD /* breadthFirstSearch.h */,
+				A90360291ABDE8C700B1E7BD /* depthFirstSearch.cpp */,
+				A903602A1ABDE8C700B1E7BD /* depthFirstSearch.h */,
+				A903602B1ABDE8C700B1E7BD /* dfsTest-BackEdge.txt */,
+				A903602C1ABDE8C700B1E7BD /* dfsTest-CrossEdge.txt */,
+				A903602D1ABDE8C700B1E7BD /* dfsTest-forwardEdge.txt */,
+				A903602E1ABDE8C700B1E7BD /* dfsTest-tree.txt */,
+				A903602F1ABDE8C700B1E7BD /* dfsTest.txt */,
+				A90360301ABDE8C700B1E7BD /* dfsTestAllCutNode.txt */,
+				A90360311ABDE8C700B1E7BD /* dfsTestBridgeCutNode.txt */,
+				A90360321ABDE8C700B1E7BD /* dfsTestRootCutNode.txt */,
+				A90360351ABDE8C700B1E7BD /* Exercise5-1-G1 sortedEdgeTest.txt */,
+				A90360361ABDE8C700B1E7BD /* Exercise5-1-G1.txt */,
+				A90360371ABDE8C700B1E7BD /* Exercise5-1-G2.txt */,
+				A90360381ABDE8C700B1E7BD /* Exercise5-2.txt */,
+				A90360391ABDE8C700B1E7BD /* findCycleClass.cpp */,
+				A903603A1ABDE8C700B1E7BD /* findCycleClass.h */,
+				A903603B1ABDE8C700B1E7BD /* graphdb.cpp */,
+				A903603C1ABDE8C700B1E7BD /* graphdb.h */,
+				A903603D1ABDE8C700B1E7BD /* inputdata.txt */,
+				A903603E1ABDE8C700B1E7BD /* output.txt */,
+				A903603F1ABDE8C700B1E7BD /* topsortClass.cpp */,
+				A90360401ABDE8C700B1E7BD /* topsortClass.h */,
+				A90360411ABDE8C700B1E7BD /* topSortTestGABCFED.txt */,
+				A90360421ABDE8C700B1E7BD /* VertexPrintVisitingClass.h */,
+				A90360431ABDE8C700B1E7BD /* vertexVisitingClass.h */,
 			);
 			path = GraphExercises;
 			sourceTree = "<group>";
@@ -118,7 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A90360451ABDE8C700B1E7BD /* depthFirstSearch.cpp in Sources */,
+				A90360491ABDE8C700B1E7BD /* topsortClass.cpp in Sources */,
+				A90360471ABDE8C700B1E7BD /* findCycleClass.cpp in Sources */,
 				A90C04251ABDE57B00E3B5EB /* main.cpp in Sources */,
+				A90360481ABDE8C700B1E7BD /* graphdb.cpp in Sources */,
+				A90360441ABDE8C700B1E7BD /* breadthFirstSearch.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +296,7 @@
 				A90C042A1ABDE57B00E3B5EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

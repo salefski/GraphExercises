@@ -1,0 +1,28 @@
+10 17 1
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+A B 1
+A D 2
+B C 3
+B D 4
+B E 5
+C F 6
+D E 7
+D G 8
+E C 9
+E F 10
+E G 11
+F H 12
+G F 13
+G I 14
+G J 16
+H G 15
+I J 17

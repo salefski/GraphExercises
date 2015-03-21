@@ -1,0 +1,64 @@
+16 0 0
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+A B 1
+B A 1
+A E 2
+E A 2
+B C 18
+C B 18
+B F 4
+F B 4
+C D 20
+D C 20
+C G 1
+G C 1
+D H 4
+E F 10
+F E 10
+E I 5
+I E 5
+F G 13
+G F 13
+F J 6
+J F 6
+G H 22
+H G 22
+G K 11
+K G 11
+H L 5
+L H 5
+I J 11
+J I 11
+I M 3
+M I 3
+J K 4
+K J 4
+J N 9
+N J 9
+K L 23
+L K 23
+K O 12
+O K 12
+L P 9
+P L 9
+M N 1
+N M 1
+N O 9
+O N 9
+O P 8
+P O 8
